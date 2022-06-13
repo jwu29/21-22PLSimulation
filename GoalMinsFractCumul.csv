@@ -1,0 +1,1072 @@
+,Team,Decimal
+0,Arsenal,3.6979
+1,Arsenal,4.3061
+2,Arsenal,5.1212
+3,Arsenal,5.2727
+4,Arsenal,5.3434
+5,Arsenal,7.08
+6,Arsenal,7.99
+7,Arsenal,8.2233
+8,Arsenal,8.4951
+9,Arsenal,8.6117
+10,Arsenal,9.1818
+11,Arsenal,9.0505
+12,Arsenal,10.5882
+13,Arsenal,12.6
+14,Arsenal,12.7
+15,Arsenal,13.1287
+16,Arsenal,13.5842
+17,Arsenal,14.4608
+18,Arsenal,15.2143
+19,Arsenal,15.2755
+20,Arsenal,15.6735
+21,Arsenal,16.5052
+22,Arsenal,16.9072
+23,Arsenal,17.1649
+24,Arsenal,17.2887
+25,Arsenal,17.433
+26,Arsenal,17.9072
+27,Arsenal,18.4583
+28,Arsenal,18.0625
+29,Arsenal,18.7292
+30,Arsenal,18.9062
+31,Arsenal,18.9792
+32,Arsenal,19.3069
+33,Arsenal,21.25
+34,Arsenal,22.52
+35,Arsenal,22.83
+36,Arsenal,23.8416
+37,Arsenal,23.9703
+38,Arsenal,24.303
+39,Arsenal,24.0505
+40,Arsenal,24.5455
+41,Arsenal,25.1122
+42,Arsenal,25.6224
+43,Arsenal,27.3
+44,Arsenal,29.9223
+45,Arsenal,31.1327
+46,Arsenal,31.2755
+47,Arsenal,31.602
+48,Arsenal,31.9592
+49,Arsenal,32.0297
+50,Arsenal,32.3168
+51,Arsenal,32.7525
+52,Arsenal,33.3878
+53,Arsenal,33.5714
+54,Arsenal,34.101
+55,Arsenal,34.0505
+56,Arsenal,37.2755
+57,Arsenal,37.3163
+58,Arsenal,37.6122
+59,Arsenal,37.6429
+60,Arsenal,37.8776
+61,Aston Villa,0.9901
+62,Aston Villa,0.7228
+63,Aston Villa,1.4706
+64,Aston Villa,1.6569
+65,Aston Villa,2.1287
+66,Aston Villa,4.7113
+67,Aston Villa,4.7423
+68,Aston Villa,4.8041
+69,Aston Villa,5.9208
+70,Aston Villa,6.7113
+71,Aston Villa,7.5149
+72,Aston Villa,7.7129
+73,Aston Villa,8.8641
+74,Aston Villa,9.3469
+75,Aston Villa,11.8878
+76,Aston Villa,11.9388
+77,Aston Villa,12.1485
+78,Aston Villa,12.8911
+79,Aston Villa,13.5102
+80,Aston Villa,14.1717
+81,Aston Villa,14.5859
+82,Aston Villa,16.34
+83,Aston Villa,16.92
+84,Aston Villa,17.2887
+85,Aston Villa,18.1616
+86,Aston Villa,19.8039
+87,Aston Villa,19.8431
+88,Aston Villa,20.4752
+89,Aston Villa,21.2913
+90,Aston Villa,21.3689
+91,Aston Villa,21.4175
+92,Aston Villa,24.1753
+93,Aston Villa,24.732
+94,Aston Villa,25.4583
+95,Aston Villa,25.5625
+96,Aston Villa,25.5833
+97,Aston Villa,25.0938
+98,Aston Villa,26.2245
+99,Aston Villa,26.6837
+100,Aston Villa,26.7653
+101,Aston Villa,27.9238
+102,Aston Villa,29.9109
+103,Aston Villa,32.4059
+104,Aston Villa,32.9703
+105,Aston Villa,33.3263
+106,Aston Villa,33.5684
+107,Aston Villa,33.0737
+108,Aston Villa,34.03
+109,Aston Villa,35.7245
+110,Aston Villa,36.5051
+111,Aston Villa,37.3737
+112,Aston Villa,37.7374
+113,Brentford,0.2245
+114,Brentford,0.7653
+115,Brentford,2.0693
+116,Brentford,4.2772
+117,Brentford,4.3366
+118,Brentford,5.2727
+119,Brentford,5.6667
+120,Brentford,5.8586
+121,Brentford,6.9901
+122,Brentford,6.198
+123,Brentford,8.6238
+124,Brentford,9.8438
+125,Brentford,10.6238
+126,Brentford,11.1122
+127,Brentford,11.3163
+128,Brentford,11.6531
+129,Brentford,12.2424
+130,Brentford,14.58
+131,Brentford,14.65
+132,Brentford,15.8687
+133,Brentford,15.9899
+134,Brentford,18.4242
+135,Brentford,18.8687
+136,Brentford,19.2323
+137,Brentford,21.898
+138,Brentford,22.7778
+139,Brentford,25.97
+140,Brentford,27.3137
+141,Brentford,27.5392
+142,Brentford,27.598
+143,Brentford,28.8969
+144,Brentford,28.9897
+145,Brentford,29.8969
+146,Brentford,30.5354
+147,Brentford,30.5758
+148,Brentford,30.6364
+149,Brentford,30.9091
+150,Brentford,31.5306
+151,Brentford,31.6939
+152,Brentford,32.1531
+153,Brentford,32.9898
+154,Brentford,35.134
+155,Brentford,35.1443
+156,Brentford,35.8454
+157,Brentford,36.37
+158,Brentford,36.67
+159,Brentford,36.69
+160,Brentford,37.8182
+161,Brighton and Hove Albion,0.7778
+162,Brighton and Hove Albion,0.8283
+163,Brighton and Hove Albion,1.1031
+164,Brighton and Hove Albion,1.4227
+165,Brighton and Hove Albion,3.9412
+166,Brighton and Hove Albion,4.3535
+167,Brighton and Hove Albion,4.5354
+168,Brighton and Hove Albion,5.98
+169,Brighton and Hove Albion,8.8485
+170,Brighton and Hove Albion,9.4184
+171,Brighton and Hove Albion,9.6939
+172,Brighton and Hove Albion,10.233
+173,Brighton and Hove Albion,13.9216
+174,Brighton and Hove Albion,14.9709
+175,Brighton and Hove Albion,16.3469
+176,Brighton and Hove Albion,16.4286
+177,Brighton and Hove Albion,17.96
+178,Brighton and Hove Albion,18.2121
+179,Brighton and Hove Albion,18.0303
+180,Brighton and Hove Albion,18.7576
+181,Brighton and Hove Albion,19.9192
+182,Brighton and Hove Albion,20.6458
+183,Brighton and Hove Albion,21.8673
+184,Brighton and Hove Albion,22.4632
+185,Brighton and Hove Albion,22.8947
+186,Brighton and Hove Albion,26.596
+187,Brighton and Hove Albion,30.2718
+188,Brighton and Hove Albion,30.699
+189,Brighton and Hove Albion,31.94
+190,Brighton and Hove Albion,33.0198
+191,Brighton and Hove Albion,33.4356
+192,Brighton and Hove Albion,34.4286
+193,Brighton and Hove Albion,34.7551
+194,Brighton and Hove Albion,34.9184
+195,Brighton and Hove Albion,35.1562
+196,Brighton and Hove Albion,35.5417
+197,Brighton and Hove Albion,35.625
+198,Brighton and Hove Albion,35.6562
+199,Brighton and Hove Albion,36.2079
+200,Brighton and Hove Albion,37.5464
+201,Brighton and Hove Albion,37.8557
+202,Brighton and Hove Albion,37.9794
+203,Burnley,0.0202
+204,Burnley,2.6598
+205,Burnley,3.5729
+206,Burnley,5.12
+207,Burnley,5.4
+208,Burnley,8.1327
+209,Burnley,8.6122
+210,Burnley,9.3333
+211,Burnley,9.375
+212,Burnley,9.0417
+213,Burnley,10.8367
+214,Burnley,11.1959
+215,Burnley,11.2784
+216,Burnley,11.5361
+217,Burnley,15.3918
+218,Burnley,16.5758
+219,Burnley,19.5102
+220,Burnley,21.2143
+221,Burnley,21.4082
+222,Burnley,21.7347
+223,Burnley,22.7604
+224,Burnley,23.4898
+225,Burnley,28.1212
+226,Burnley,28.6162
+227,Burnley,28.899
+228,Burnley,30.3173
+229,Burnley,31.1212
+230,Burnley,31.4444
+231,Burnley,32.6598
+232,Burnley,33.8854
+233,Burnley,33.9167
+234,Burnley,34.9789
+235,Burnley,36.4545
+236,Burnley,37.7426
+237,Chelsea,0.2842
+238,Chelsea,0.4211
+239,Chelsea,0.6316
+240,Chelsea,1.1546
+241,Chelsea,1.3608
+242,Chelsea,2.2178
+243,Chelsea,3.1515
+244,Chelsea,3.5253
+245,Chelsea,3.9697
+246,Chelsea,4.5258
+247,Chelsea,4.6082
+248,Chelsea,4.9691
+249,Chelsea,6.88
+250,Chelsea,6.09
+251,Chelsea,6.93
+252,Chelsea,7.45
+253,Chelsea,8.1875
+254,Chelsea,8.4375
+255,Chelsea,8.6146
+256,Chelsea,8.6667
+257,Chelsea,8.0833
+258,Chelsea,8.9062
+259,Chelsea,8.9688
+260,Chelsea,9.7041
+261,Chelsea,9.8265
+262,Chelsea,9.8673
+263,Chelsea,10.3367
+264,Chelsea,11.1443
+265,Chelsea,11.2887
+266,Chelsea,11.7629
+267,Chelsea,12.7071
+268,Chelsea,13.2857
+269,Chelsea,13.7619
+270,Chelsea,14.28
+271,Chelsea,14.44
+272,Chelsea,15.4158
+273,Chelsea,15.604
+274,Chelsea,15.9604
+275,Chelsea,16.7347
+276,Chelsea,18.3505
+277,Chelsea,18.5979
+278,Chelsea,18.9794
+279,Chelsea,19.28
+280,Chelsea,20.42
+281,Chelsea,20.46
+282,Chelsea,22.2917
+283,Chelsea,23.5051
+284,Chelsea,23.5859
+285,Chelsea,24.9394
+286,Chelsea,25.5213
+287,Chelsea,25.5851
+288,Chelsea,25.6064
+289,Chelsea,25.7553
+290,Chelsea,26.1458
+291,Chelsea,26.0312
+292,Chelsea,26.9583
+293,Chelsea,27.9381
+294,Chelsea,28.5152
+295,Chelsea,29.1684
+296,Chelsea,29.2316
+297,Chelsea,29.3263
+298,Chelsea,29.5368
+299,Chelsea,29.5895
+300,Chelsea,29.0842
+301,Chelsea,30.1735
+302,Chelsea,30.3265
+303,Chelsea,31.949
+304,Chelsea,32.6421
+305,Chelsea,34.5825
+306,Chelsea,34.6019
+307,Chelsea,35.04
+308,Chelsea,35.61
+309,Chelsea,35.89
+310,Chelsea,36.3646
+311,Chelsea,37.1158
+312,Chelsea,37.9684
+313,Crystal Palace,2.6224
+314,Crystal Palace,2.7449
+315,Crystal Palace,3.8125
+316,Crystal Palace,3.8958
+317,Crystal Palace,3.9896
+318,Crystal Palace,5.47
+319,Crystal Palace,6.6465
+320,Crystal Palace,6.7576
+321,Crystal Palace,7.54
+322,Crystal Palace,7.77
+323,Crystal Palace,8.602
+324,Crystal Palace,9.0588
+325,Crystal Palace,9.9216
+326,Crystal Palace,10.6337
+327,Crystal Palace,10.802
+328,Crystal Palace,11.3711
+329,Crystal Palace,11.4227
+330,Crystal Palace,11.0825
+331,Crystal Palace,12.9802
+332,Crystal Palace,15.4141
+333,Crystal Palace,15.6566
+334,Crystal Palace,15.9697
+335,Crystal Palace,16.02
+336,Crystal Palace,16.68
+337,Crystal Palace,18.38
+338,Crystal Palace,18.42
+339,Crystal Palace,18.08
+340,Crystal Palace,19.8812
+341,Crystal Palace,19.9505
+342,Crystal Palace,20.7374
+343,Crystal Palace,21.5758
+344,Crystal Palace,22.6562
+345,Crystal Palace,25.1531
+346,Crystal Palace,25.4286
+347,Crystal Palace,25.9082
+348,Crystal Palace,25.9592
+349,Crystal Palace,26.0918
+350,Crystal Palace,27.1919
+351,Crystal Palace,27.3434
+352,Crystal Palace,29.1667
+353,Crystal Palace,29.25
+354,Crystal Palace,29.7917
+355,Crystal Palace,30.7113
+356,Crystal Palace,33.6465
+357,Crystal Palace,33.9697
+358,Crystal Palace,34.31
+359,Crystal Palace,35.8469
+360,Crystal Palace,36.2039
+361,Crystal Palace,36.3495
+362,Crystal Palace,37.3737
+363,Everton,0.5104
+364,Everton,0.8125
+365,Everton,0.8646
+366,Everton,1.297
+367,Everton,1.5545
+368,Everton,2.41
+369,Everton,2.62
+370,Everton,3.6458
+371,Everton,3.6979
+372,Everton,3.7083
+373,Everton,5.2959
+374,Everton,5.8061
+375,Everton,6.6907
+376,Everton,8.03
+377,Everton,8.68
+378,Everton,9.697
+379,Everton,13.3878
+380,Everton,14.8235
+381,Everton,14.9412
+382,Everton,15.7374
+383,Everton,16.7755
+384,Everton,17.5758
+385,Everton,17.8081
+386,Everton,18.6078
+387,Everton,20.3636
+388,Everton,21.102
+389,Everton,21.2347
+390,Everton,21.8265
+391,Everton,26.9182
+392,Everton,27.5714
+393,Everton,28.1818
+394,Everton,28.4141
+395,Everton,29.2755
+396,Everton,30.9588
+397,Everton,32.4804
+398,Everton,33.3061
+399,Everton,33.0612
+400,Everton,35.1
+401,Everton,35.47
+402,Everton,36.5728
+403,Everton,36.7767
+404,Everton,36.8738
+405,Everton,37.4898
+406,Leeds United,0.5312
+407,Leeds United,1.4059
+408,Leeds United,1.7723
+409,Leeds United,2.9175
+410,Leeds United,4.13
+411,Leeds United,5.1845
+412,Leeds United,6.1837
+413,Leeds United,8.9697
+414,Leeds United,9.5918
+415,Leeds United,9.6327
+416,Leeds United,10.268
+417,Leeds United,11.4536
+418,Leeds United,13.97
+419,Leeds United,14.27
+420,Leeds United,14.99
+421,Leeds United,15.2772
+422,Leeds United,15.8515
+423,Leeds United,17.8144
+424,Leeds United,18.3939
+425,Leeds United,18.8081
+426,Leeds United,18.9596
+427,Leeds United,19.1
+428,Leeds United,19.37
+429,Leeds United,19.65
+430,Leeds United,21.4563
+431,Leeds United,21.6505
+432,Leeds United,21.0874
+433,Leeds United,23.5825
+434,Leeds United,23.5922
+435,Leeds United,28.1386
+436,Leeds United,28.9604
+437,Leeds United,29.9196
+438,Leeds United,29.6696
+439,Leeds United,29.6964
+440,Leeds United,30.2959
+441,Leeds United,31.2188
+442,Leeds United,31.7917
+443,Leeds United,31.9167
+444,Leeds United,34.7172
+445,Leeds United,36.9406
+446,Leeds United,37.596
+447,Leeds United,37.9798
+448,Leicester City,0.4227
+449,Leicester City,1.7551
+450,Leicester City,2.0784
+451,Leicester City,2.8039
+452,Leicester City,4.6465
+453,Leicester City,5.37
+454,Leicester City,5.9
+455,Leicester City,6.3131
+456,Leicester City,6.3737
+457,Leicester City,7.31
+458,Leicester City,7.82
+459,Leicester City,7.87
+460,Leicester City,7.95
+461,Leicester City,8.1386
+462,Leicester City,8.7624
+463,Leicester City,10.2887
+464,Leicester City,12.16
+465,Leicester City,12.34
+466,Leicester City,12.42
+467,Leicester City,12.7
+468,Leicester City,13.2245
+469,Leicester City,13.5204
+470,Leicester City,14.1414
+471,Leicester City,15.3918
+472,Leicester City,15.6186
+473,Leicester City,15.866
+474,Leicester City,15.9072
+475,Leicester City,16.5938
+476,Leicester City,16.6354
+477,Leicester City,16.6979
+478,Leicester City,17.6224
+479,Leicester City,18.2376
+480,Leicester City,18.7822
+481,Leicester City,19.5
+482,Leicester City,21.4545
+483,Leicester City,21.6162
+484,Leicester City,22.4184
+485,Leicester City,23.8763
+486,Leicester City,23.9588
+487,Leicester City,24.7083
+488,Leicester City,26.2062
+489,Leicester City,26.3402
+490,Leicester City,27.6634
+491,Leicester City,28.4021
+492,Leicester City,28.4639
+493,Leicester City,29.1845
+494,Leicester City,30.0515
+495,Leicester City,32.9688
+496,Leicester City,33.1122
+497,Leicester City,34.6
+498,Leicester City,34.6842
+499,Leicester City,34.7684
+500,Leicester City,35.1837
+501,Leicester City,35.2245
+502,Leicester City,35.5204
+503,Leicester City,35.7653
+504,Leicester City,35.9286
+505,Leicester City,36.0625
+506,Leicester City,37.5102
+507,Leicester City,37.7653
+508,Leicester City,37.8367
+509,Leicester City,37.9898
+510,Liverpool,0.2766
+511,Liverpool,0.7128
+512,Liverpool,0.8085
+513,Liverpool,1.1837
+514,Liverpool,1.7347
+515,Liverpool,2.495
+516,Liverpool,3.1961
+517,Liverpool,3.5196
+518,Liverpool,3.9314
+519,Liverpool,4.4526
+520,Liverpool,4.8421
+521,Liverpool,4.9579
+522,Liverpool,5.3131
+523,Liverpool,5.5758
+524,Liverpool,5.7071
+525,Liverpool,6.6289
+526,Liverpool,6.8041
+527,Liverpool,7.3936
+528,Liverpool,7.5745
+529,Liverpool,7.5957
+530,Liverpool,7.0851
+531,Liverpool,7.9894
+532,Liverpool,8.13
+533,Liverpool,8.38
+534,Liverpool,8.05
+535,Liverpool,8.5
+536,Liverpool,8.56
+537,Liverpool,9.2449
+538,Liverpool,9.0408
+539,Liverpool,10.3981
+540,Liverpool,10.8835
+541,Liverpool,11.4105
+542,Liverpool,11.5579
+543,Liverpool,11.7789
+544,Liverpool,11.8211
+545,Liverpool,12.0211
+546,Liverpool,12.3368
+547,Liverpool,12.3895
+548,Liverpool,12.5684
+549,Liverpool,13.1939
+550,Liverpool,13.6939
+551,Liverpool,13.8469
+552,Liverpool,13.0918
+553,Liverpool,14.9703
+554,Liverpool,15.7172
+555,Liverpool,16.2143
+556,Liverpool,16.2551
+557,Liverpool,16.9184
+558,Liverpool,17.3465
+559,Liverpool,17.7228
+560,Liverpool,19.26
+561,Liverpool,19.09
+562,Liverpool,20.4632
+563,Liverpool,20.7474
+564,Liverpool,20.8316
+565,Liverpool,21.3232
+566,Liverpool,21.0808
+567,Liverpool,21.9192
+568,Liverpool,22.3505
+569,Liverpool,22.9278
+570,Liverpool,23.4124
+571,Liverpool,24.6875
+572,Liverpool,24.7188
+573,Liverpool,24.8646
+574,Liverpool,25.1531
+575,Liverpool,25.3061
+576,Liverpool,25.3571
+577,Liverpool,25.8469
+578,Liverpool,25.949
+579,Liverpool,25.9796
+580,Liverpool,26.2755
+581,Liverpool,27.1919
+582,Liverpool,27.6465
+583,Liverpool,28.5789
+584,Liverpool,28.6632
+585,Liverpool,29.2268
+586,Liverpool,29.9485
+587,Liverpool,30.134
+588,Liverpool,30.5052
+589,Liverpool,31.2292
+590,Liverpool,31.0521
+591,Liverpool,31.7292
+592,Liverpool,31.9062
+593,Liverpool,32.6768
+594,Liverpool,32.9091
+595,Liverpool,33.1939
+596,Liverpool,34.7755
+597,Liverpool,35.06
+598,Liverpool,35.69
+599,Liverpool,36.2755
+600,Liverpool,36.7245
+601,Liverpool,37.24
+602,Liverpool,37.9
+603,Liverpool,37.95
+604,Manchester City,1.2316
+605,Manchester City,1.6947
+606,Manchester City,1.0737
+607,Manchester City,1.7684
+608,Manchester City,1.9053
+609,Manchester City,2.1224
+610,Manchester City,2.4388
+611,Manchester City,2.5816
+612,Manchester City,2.0714
+613,Manchester City,2.898
+614,Manchester City,3.6701
+615,Manchester City,5.5657
+616,Manchester City,6.732
+617,Manchester City,6.8557
+618,Manchester City,7.1212
+619,Manchester City,7.7576
+620,Manchester City,8.1313
+621,Manchester City,8.2828
+622,Manchester City,8.3131
+623,Manchester City,8.9899
+624,Manchester City,10.4639
+625,Manchester City,10.0722
+626,Manchester City,11.4536
+627,Manchester City,11.6082
+628,Manchester City,11.9278
+629,Manchester City,12.3438
+630,Manchester City,12.9479
+631,Manchester City,13.2755
+632,Manchester City,13.4388
+633,Manchester City,14.3163
+634,Manchester City,14.0408
+635,Manchester City,14.6735
+636,Manchester City,15.7184
+637,Manchester City,16.1327
+638,Manchester City,16.3265
+639,Manchester City,16.5408
+640,Manchester City,16.6735
+641,Manchester City,16.7959
+642,Manchester City,16.0816
+643,Manchester City,16.8367
+644,Manchester City,17.2842
+645,Manchester City,17.0526
+646,Manchester City,17.6947
+647,Manchester City,17.9263
+648,Manchester City,18.1458
+649,Manchester City,18.2188
+650,Manchester City,18.2604
+651,Manchester City,18.0521
+652,Manchester City,18.7396
+653,Manchester City,18.9271
+654,Manchester City,19.1649
+655,Manchester City,20.5941
+656,Manchester City,20.9505
+657,Manchester City,21.75
+658,Manchester City,22.68
+659,Manchester City,23.4124
+660,Manchester City,23.7423
+661,Manchester City,24.3229
+662,Manchester City,24.5208
+663,Manchester City,24.75
+664,Manchester City,24.9583
+665,Manchester City,25.3204
+666,Manchester City,25.9223
+667,Manchester City,26.8333
+668,Manchester City,27.2828
+669,Manchester City,27.0505
+670,Manchester City,27.7273
+671,Manchester City,27.9596
+672,Manchester City,29.2632
+673,Manchester City,29.0526
+674,Manchester City,30.3814
+675,Manchester City,30.0515
+676,Manchester City,31.5773
+677,Manchester City,31.701
+678,Manchester City,31.8763
+679,Manchester City,32.2396
+680,Manchester City,32.3542
+681,Manchester City,32.0417
+682,Manchester City,32.5417
+683,Manchester City,32.5833
+684,Manchester City,33.9902
+685,Manchester City,33.1275
+686,Manchester City,33.6078
+687,Manchester City,33.8431
+688,Manchester City,34.1959
+689,Manchester City,34.3918
+690,Manchester City,34.6598
+691,Manchester City,34.9588
+692,Manchester City,34.9897
+693,Manchester City,35.1649
+694,Manchester City,35.2474
+695,Manchester City,35.6495
+696,Manchester City,35.0722
+697,Manchester City,35.8969
+698,Manchester City,36.5204
+699,Manchester City,36.7245
+700,Manchester City,37.8081
+701,Manchester City,37.8283
+702,Manchester City,37.8586
+703,Manchester United,0.3125
+704,Manchester United,0.5625
+705,Manchester United,0.5833
+706,Manchester United,0.6458
+707,Manchester United,0.7292
+708,Manchester United,1.58
+709,Manchester United,2.8283
+710,Manchester United,3.4845
+711,Manchester United,3.6804
+712,Manchester United,3.866
+713,Manchester United,3.9897
+714,Manchester United,4.3535
+715,Manchester United,4.9293
+716,Manchester United,6.4433
+717,Manchester United,7.19
+718,Manchester United,7.86
+719,Manchester United,9.4062
+720,Manchester United,9.6875
+721,Manchester United,9.9167
+722,Manchester United,11.5347
+723,Manchester United,12.5152
+724,Manchester United,13.4356
+725,Manchester United,13.5644
+726,Manchester United,13.7426
+727,Manchester United,14.8061
+728,Manchester United,15.7857
+729,Manchester United,16.7476
+730,Manchester United,17.2784
+731,Manchester United,17.3608
+732,Manchester United,17.0825
+733,Manchester United,19.0588
+734,Manchester United,19.7059
+735,Manchester United,20.5918
+736,Manchester United,20.6633
+737,Manchester United,20.8163
+738,Manchester United,21.9792
+739,Manchester United,22.1837
+740,Manchester United,23.2121
+741,Manchester United,24.5253
+742,Manchester United,24.9899
+743,Manchester United,25.3301
+744,Manchester United,25.4854
+745,Manchester United,25.7476
+746,Manchester United,25.9223
+747,Manchester United,27.2222
+748,Manchester United,28.1224
+749,Manchester United,28.3878
+750,Manchester United,28.8571
+751,Manchester United,29.6931
+752,Manchester United,31.32
+753,Manchester United,31.07
+754,Manchester United,31.8
+755,Manchester United,33.3366
+756,Manchester United,34.6632
+757,Manchester United,35.6702
+758,Manchester United,35.7872
+759,Manchester United,35.0957
+760,Newcastle United,0.4082
+761,Newcastle United,0.051
+762,Newcastle United,2.57
+763,Newcastle United,2.93
+764,Newcastle United,3.6186
+765,Newcastle United,4.44
+766,Newcastle United,5.2255
+767,Newcastle United,6.4141
+768,Newcastle United,7.0192
+769,Newcastle United,7.9423
+770,Newcastle United,8.6939
+771,Newcastle United,10.6796
+772,Newcastle United,11.102
+773,Newcastle United,11.398
+774,Newcastle United,11.7959
+775,Newcastle United,13.6364
+776,Newcastle United,14.4
+777,Newcastle United,16.0714
+778,Newcastle United,18.068
+779,Newcastle United,19.5306
+780,Newcastle United,20.7941
+781,Newcastle United,21.3737
+782,Newcastle United,21.6061
+783,Newcastle United,21.8485
+784,Newcastle United,22.3333
+785,Newcastle United,23.4646
+786,Newcastle United,24.33
+787,Newcastle United,24.44
+788,Newcastle United,25.1212
+789,Newcastle United,25.1414
+790,Newcastle United,26.3168
+791,Newcastle United,26.5446
+792,Newcastle United,29.398
+793,Newcastle United,30.76
+794,Newcastle United,31.9806
+795,Newcastle United,31.2913
+796,Newcastle United,32.3265
+797,Newcastle United,33.3608
+798,Newcastle United,33.4227
+799,Newcastle United,33.5361
+800,Newcastle United,36.5714
+801,Newcastle United,36.8776
+802,Newcastle United,37.198
+803,Newcastle United,37.6535
+804,Norwich City,2.4314
+805,Norwich City,4.3571
+806,Norwich City,9.6122
+807,Norwich City,10.2871
+808,Norwich City,10.0594
+809,Norwich City,11.0722
+810,Norwich City,11.8351
+811,Norwich City,13.8182
+812,Norwich City,20.1569
+813,Norwich City,20.1765
+814,Norwich City,21.5
+815,Norwich City,21.713
+816,Norwich City,21.8796
+817,Norwich City,22.0104
+818,Norwich City,24.5208
+819,Norwich City,26.9314
+820,Norwich City,27.7396
+821,Norwich City,28.9307
+822,Norwich City,30.899
+823,Norwich City,30.0909
+824,Norwich City,31.46
+825,Norwich City,31.56
+826,Norwich City,36.3814
+827,Southampton,0.2292
+828,Southampton,1.3
+829,Southampton,2.76
+830,Southampton,2.98
+831,Southampton,6.65
+832,Southampton,7.5567
+833,Southampton,8.4184
+834,Southampton,8.5408
+835,Southampton,9.2041
+836,Southampton,10.03
+837,Southampton,11.0412
+838,Southampton,13.0306
+839,Southampton,13.3469
+840,Southampton,14.2816
+841,Southampton,16.32
+842,Southampton,16.36
+843,Southampton,17.64
+844,Southampton,17.73
+845,Southampton,17.08
+846,Southampton,18.25
+847,Southampton,19.3737
+848,Southampton,19.0505
+849,Southampton,19.5253
+850,Southampton,19.7374
+851,Southampton,20.8725
+852,Southampton,21.07
+853,Southampton,22.2323
+854,Southampton,22.8283
+855,Southampton,22.8485
+856,Southampton,23.5152
+857,Southampton,24.5567
+858,Southampton,24.8866
+859,Southampton,25.375
+860,Southampton,25.9375
+861,Southampton,27.2475
+862,Southampton,28.4327
+863,Southampton,29.5204
+864,Southampton,31.4444
+865,Southampton,33.4851
+866,Southampton,33.5941
+867,Southampton,34.0909
+868,Southampton,36.1327
+869,Southampton,37.8163
+870,Tottenham Hotspur,0.5816
+871,Tottenham Hotspur,1.1
+872,Tottenham Hotspur,2.433
+873,Tottenham Hotspur,5.8283
+874,Tottenham Hotspur,6.2784
+875,Tottenham Hotspur,6.7526
+876,Tottenham Hotspur,7.1635
+877,Tottenham Hotspur,7.2115
+878,Tottenham Hotspur,7.4615
+879,Tottenham Hotspur,11.6186
+880,Tottenham Hotspur,11.732
+881,Tottenham Hotspur,12.1237
+882,Tottenham Hotspur,12.701
+883,Tottenham Hotspur,13.101
+884,Tottenham Hotspur,13.7172
+885,Tottenham Hotspur,13.8182
+886,Tottenham Hotspur,14.1287
+887,Tottenham Hotspur,14.7723
+888,Tottenham Hotspur,15.3333
+889,Tottenham Hotspur,15.3542
+890,Tottenham Hotspur,15.8021
+891,Tottenham Hotspur,16.41
+892,Tottenham Hotspur,17.9423
+893,Tottenham Hotspur,18.9901
+894,Tottenham Hotspur,18.3762
+895,Tottenham Hotspur,18.9703
+896,Tottenham Hotspur,20.1818
+897,Tottenham Hotspur,20.7273
+898,Tottenham Hotspur,22.0388
+899,Tottenham Hotspur,22.6019
+900,Tottenham Hotspur,22.9515
+901,Tottenham Hotspur,24.1042
+902,Tottenham Hotspur,24.1562
+903,Tottenham Hotspur,24.2812
+904,Tottenham Hotspur,24.9062
+905,Tottenham Hotspur,25.1429
+906,Tottenham Hotspur,25.1735
+907,Tottenham Hotspur,25.3776
+908,Tottenham Hotspur,25.5102
+909,Tottenham Hotspur,25.602
+910,Tottenham Hotspur,26.3571
+911,Tottenham Hotspur,26.7653
+912,Tottenham Hotspur,27.3776
+913,Tottenham Hotspur,27.6122
+914,Tottenham Hotspur,28.2424
+915,Tottenham Hotspur,28.0909
+916,Tottenham Hotspur,28.9192
+917,Tottenham Hotspur,29.4388
+918,Tottenham Hotspur,29.5306
+919,Tottenham Hotspur,29.5918
+920,Tottenham Hotspur,29.6837
+921,Tottenham Hotspur,29.8878
+922,Tottenham Hotspur,30.0297
+923,Tottenham Hotspur,30.5545
+924,Tottenham Hotspur,30.7129
+925,Tottenham Hotspur,30.7624
+926,Tottenham Hotspur,33.2292
+927,Tottenham Hotspur,33.6458
+928,Tottenham Hotspur,33.8438
+929,Tottenham Hotspur,34.5918
+930,Tottenham Hotspur,35.2292
+931,Tottenham Hotspur,35.3854
+932,Tottenham Hotspur,35.5208
+933,Tottenham Hotspur,36.5096
+934,Tottenham Hotspur,37.1739
+935,Tottenham Hotspur,37.3478
+936,Tottenham Hotspur,37.7065
+937,Tottenham Hotspur,37.7717
+938,Tottenham Hotspur,37.8261
+939,Watford,0.099
+940,Watford,0.4158
+941,Watford,0.6931
+942,Watford,4.1735
+943,Watford,4.6735
+944,Watford,4.8469
+945,Watford,5.7549
+946,Watford,8.13
+947,Watford,8.83
+948,Watford,8.85
+949,Watford,8.91
+950,Watford,8.96
+951,Watford,11.9901
+952,Watford,11.2772
+953,Watford,11.4356
+954,Watford,11.9505
+955,Watford,12.3
+956,Watford,12.63
+957,Watford,13.419
+958,Watford,14.7857
+959,Watford,15.2424
+960,Watford,16.0408
+961,Watford,18.9184
+962,Watford,23.7843
+963,Watford,24.1837
+964,Watford,26.1111
+965,Watford,26.899
+966,Watford,28.1346
+967,Watford,28.3269
+968,Watford,31.5816
+969,Watford,32.2917
+970,Watford,33.0833
+971,Watford,36.0612
+972,Watford,37.9263
+973,West Ham United,0.1837
+974,West Ham United,0.5714
+975,West Ham United,0.6735
+976,West Ham United,0.7041
+977,West Ham United,1.2653
+978,West Ham United,1.6224
+979,West Ham United,1.8673
+980,West Ham United,1.9082
+981,West Ham United,2.398
+982,West Ham United,2.7245
+983,West Ham United,4.303
+984,West Ham United,5.699
+985,West Ham United,5.9223
+986,West Ham United,6.8515
+987,West Ham United,7.7755
+988,West Ham United,8.7708
+989,West Ham United,9.3878
+990,West Ham United,9.0714
+991,West Ham United,9.8469
+992,West Ham United,9.8878
+993,West Ham United,10.0388
+994,West Ham United,10.7282
+995,West Ham United,10.7961
+996,West Ham United,12.9896
+997,West Ham United,13.049
+998,West Ham United,14.4
+999,West Ham United,14.61
+1000,West Ham United,14.92
+1001,West Ham United,17.52
+1002,West Ham United,17.67
+1003,West Ham United,18.2755
+1004,West Ham United,18.2959
+1005,West Ham United,18.6122
+1006,West Ham United,18.9592
+1007,West Ham United,19.2178
+1008,West Ham United,19.2475
+1009,West Ham United,19.495
+1010,West Ham United,20.4286
+1011,West Ham United,20.8878
+1012,West Ham United,21.33
+1013,West Ham United,21.57
+1014,West Ham United,23.7263
+1015,West Ham United,24.101
+1016,West Ham United,24.9596
+1017,West Ham United,25.3232
+1018,West Ham United,26.6465
+1019,West Ham United,28.7333
+1020,West Ham United,28.8476
+1021,West Ham United,29.3535
+1022,West Ham United,30.3265
+1023,West Ham United,30.6224
+1024,West Ham United,32.8077
+1025,West Ham United,34.4592
+1026,West Ham United,35.1224
+1027,West Ham United,35.3061
+1028,West Ham United,35.4898
+1029,West Ham United,35.7041
+1030,West Ham United,36.2449
+1031,West Ham United,36.4592
+1032,West Ham United,37.4124
+1033,Wolverhampton Wanderers,3.7835
+1034,Wolverhampton Wanderers,3.8763
+1035,Wolverhampton Wanderers,5.63
+1036,Wolverhampton Wanderers,6.202
+1037,Wolverhampton Wanderers,6.6263
+1038,Wolverhampton Wanderers,7.8317
+1039,Wolverhampton Wanderers,7.8812
+1040,Wolverhampton Wanderers,7.9802
+1041,Wolverhampton Wanderers,8.101
+1042,Wolverhampton Wanderers,9.2828
+1043,Wolverhampton Wanderers,9.3232
+1044,Wolverhampton Wanderers,11.6082
+1045,Wolverhampton Wanderers,16.4259
+1046,Wolverhampton Wanderers,18.8485
+1047,Wolverhampton Wanderers,19.3627
+1048,Wolverhampton Wanderers,19.6275
+1049,Wolverhampton Wanderers,19.9412
+1050,Wolverhampton Wanderers,20.8333
+1051,Wolverhampton Wanderers,20.5952
+1052,Wolverhampton Wanderers,22.18
+1053,Wolverhampton Wanderers,22.06
+1054,Wolverhampton Wanderers,23.7041
+1055,Wolverhampton Wanderers,23.0918
+1056,Wolverhampton Wanderers,24.099
+1057,Wolverhampton Wanderers,27.1368
+1058,Wolverhampton Wanderers,27.1895
+1059,Wolverhampton Wanderers,27.2211
+1060,Wolverhampton Wanderers,27.9158
+1061,Wolverhampton Wanderers,28.5354
+1062,Wolverhampton Wanderers,29.2321
+1063,Wolverhampton Wanderers,29.5
+1064,Wolverhampton Wanderers,30.3564
+1065,Wolverhampton Wanderers,30.0693
+1066,Wolverhampton Wanderers,34.9806
+1067,Wolverhampton Wanderers,34.8058
+1068,Wolverhampton Wanderers,35.1134
+1069,Wolverhampton Wanderers,36.5876
+1070,Wolverhampton Wanderers,37.03
