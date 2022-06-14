@@ -1,0 +1,316 @@
+---
+title: "PL21/22 R Code"
+output:
+  html_document:
+    df_print: paged
+---
+
+Firstly, we import some data for the sake of later usage.
+
+```{r}
+Tm <- c("Arsenal","Aston Villa","Brentford","Brighton and Hove Albion","Burnley"
+        ,"Chelsea","Crystal Palace","Everton","Leeds United","Leicester City",
+        "Liverpool","Manchester City","Manchester United","Newcastle United",
+        "Norwich City","Southampton","Tottenham Hotspur","Watford","West Ham United", "Wolverhampton Wanderers")
+
+TmAcr <- c("ARS","AVL","BRE","BHA","BUR","CHE","CRY","EVE","LEE","LEI","LIV",
+           "MCI","MUN","NEW","NOR","SOU","TOT","WAT","WHU","WOL")
+
+primcolours <- c("#ef0107","#7b003a","#e30613","#005daa","#630f35","#034694","#27409b","#274488","#ffffff","#0053a0","#dd0000", "#97c1e7","#b40509","#241f20","#fff200","#ed1a3b","#ffffff", "#fbee23","#7f0000","#fdb913")
+
+secndcolours <- c("#ef0107","#7b003a","#ffffff","#ffffff", "#630f35","#034694","#c4122e","#274488","#ffffff","#0053a0","#dd0000","#97c1e7","#b40509","#ffffff","#fff200","#ffffff","#ffffff", "#fbee23","#7f0000","#fdb913")
+
+bord <- c("#ffffff","#a3c5e9","#e30613","#005daa","#97d7f5","#ffffff","#a7a5a6","#ffffff","#1d428a","#fdbe11","#00b2a9","#1c2c5b","#fbe122","#241f20","#00a650","#ed1a3b","#132257","#11210c","#1bb1e7","#231f20")
+
+```
+
+Then we import the data sets:
+
+```{r}
+## replace the links to make this work
+GoalMins <- read.csv('/Users/josiahwu29/Desktop/SummerResearchY1/GoalMins.csv')
+GoalMinsFract <- read.csv('/Users/josiahwu29/Desktop/SummerResearchY1/GoalMinsFract.csv')
+GoalMinsFractCumul <- read.csv('/Users/josiahwu29/Desktop/SummerResearchY1/GoalMinsFractCumul.csv')
+FixturesByTeam <- read.csv('/Users/josiahwu29/Desktop/SummerResearchY1/FixturesByTeam.csv')
+```
+
+Now below is the code for computing the p-values:
+
+```{r}
+CountPerMatch <- function(t) {
+return(GoalMins[GoalMins$Team==t,]$GoalsNum)
+}
+```
+
+```{r}
+ChiSqPoisMatch <- function(t) {
+  v <- CountPerMatch(t)
+  n <- length(v)
+  ## Find q such that for groups with goals q => Expected Freq < 5.
+  q <- qpois(1-(5/n),mean(v))
+  goals <- c(0:q)
+  ExpProb <- dpois(c(0:(q-1)),lambda=mean(v))
+  ## Merge Groups with Expected Freq < 5
+  ExpProb[q+1] <- (1 - ppois(q-1,mean(v)))
+  Obse <- vector()
+  for(k in 1:q) {
+    Obse[k] <- length(which(v==k-1))
+  }
+  Obse[q+1] <- length(which(v>=q))
+
+  return(chisq.test(Obse,p=ExpProb,rescale.p=TRUE))
+}
+```
+
+```{r}
+## Vector of p-values
+ChiSqP <- c()
+for(i in 1:20){
+ChiSqP <- c(ChiSqP, ChiSqPoisMatch(Tm[i])$p.value)
+}
+```
+
+```{r}
+## Plot Bar Graph of p-values (Fiugre 2)
+
+barplot(ChiSqP, names.arg = TmAcr, cex.names = 0.4, col = primcolours, ylim=c(0,1), xlab = 'Team', ylab = 'ChiSqTest p-value')
+
+abline(h=0.9)
+```
+
+I made the 'guess' that the intensity function is a multiple of the PDF for Beta, based on my observations on the histograms...
+
+```{r}
+layout_matrix <- matrix(1:10,ncol=5,byrow=TRUE)
+layout(layout_matrix)
+## first 10 teams histogram
+for(n in 1:10){
+w <- GoalMinsFract[GoalMinsFract$Team==Tm[n],]$Decimal
+hist(w, breaks=10, freq=FALSE, col = rep(c(primcolours[n],secndcolours[n]),5), border = bord[n], main=Tm[n], xlab = 'Proportion Of Match', ylab = 'Density')
+}
+```
+
+```{r}
+layout_matrix <- matrix(1:10,ncol=5,byrow=TRUE)
+layout(layout_matrix)
+## last 10 teams histogram
+for(n in 11:20){
+w <- GoalMinsFract[GoalMinsFract$Team==Tm[n],]$Decimal
+hist(w, breaks=10, freq=FALSE, col = rep(c(primcolours[n],secndcolours[n]),5), border = bord[n], main=Tm[n], xlab = 'Proportion Of Match', ylab = 'Goals Scored')
+}
+```
+
+and by using 'descdist' from fitdistrplus package.
+
+```{r}
+library(fitdistrplus)
+
+layout_matrix2 <- c(1)
+layout(layout_matrix2)
+descdist(GoalMinsFract[GoalMinsFract$Team==Tm[1],]$Decimal)
+```
+
+Now we're ready to move on. We first input the intensity function and its integral:
+
+```{r}
+lambda <- function(theta, time){
+    (theta[3]/beta(theta[1],theta[2])) * ((time%%1)**(theta[1]-1)) * ((1-(time%%1))**(theta[2]-1))
+}
+
+Lambda <- function(theta, time){
+    theta[3]*pbeta((time%%1),theta[1],theta[2]) + theta[3]*floor(time)
+}
+```
+
+as well as the log-likelihood. Note that here we're computing the NEGATIVE log-likelihood.
+
+```{r}
+nllh_ihpp <- function(theta, x, A){
+    
+    Lambda_term <- Lambda(theta, A[2]) - Lambda(theta, A[1])
+    lambda_term <- - sum(log(lambda(theta, time = x))) 
+    
+    return(Lambda_term + lambda_term)
+}
+```
+
+This is because the built-in function 'optim', by default, finds parameters that MINIMIZES the desired function. Hence we compute the negative log-likelihood as MIN(negative log-likelihood) \<=\> MAX(log-likelihood).
+
+We can now write a function that finds the optimal parameters...
+
+```{r}
+opt <- function(t){
+    ind <- which(Tm==t)
+    opti <- optim(par = c(1, 1, 1),
+                  fn = nllh_ihpp,
+                  method = "L-BFGS-B",
+                  lower = c(0, 0, 0),
+                  upper = c(Inf, Inf, Inf),
+                  hessian = TRUE,
+                  A = c(0, 38),
+                  x = GoalMinsFractCumul[GoalMinsFractCumul$Team==t,]$Decimal
+    )
+    return(opti)
+}
+```
+
+and find such parameters for every team.
+
+```{r}
+theta1 <- vector()
+theta2 <- vector()
+theta3 <- vector()
+Val <- vector()
+Conv <- vector()
+Team <- Tm
+
+for(k in 1:20){
+op <- opt(Tm[k])
+theta1 <- append(theta1,op$par[1])
+theta2 <- append(theta2,op$par[2])
+theta3 <- append(theta3,op$par[3])
+Val <- append(Val,op$value)
+conv <- append(Conv,op$convergence)
+}
+
+ParaDF<- data.frame(Team, theta1, theta2, theta3, Val, conv)
+
+ParaDF
+```
+
+We can finally write a function to simulate results for a single team.
+```{r}
+simulate_hpp_by_intervals <- function(t_min, t_max, lambda){
+    event_times <- c()
+    
+    t_next <- t_min + rexp(n = 1, rate = lambda)
+    
+    while(t_next <= t_max){
+        event_times <- c(event_times, t_next)
+        t_next <- t_next + rexp(n = 1, rate = lambda)
+    }
+    
+    return(event_times)
+}
+```
+
+```{r}
+simulate_opt <- function(Team){
+    ti <- seq(0, 38, length.out = 5001)
+    fitted_intensity <- lambda(theta = opt(Team)$par, time = ti)
+    fitted_intensity <- fitted_intensity[is.finite(fitted_intensity)==TRUE]
+    m <- 1.025*max(fitted_intensity)
+    HPPResult <- simulate_hpp_by_intervals(0,38,m)
+    
+    Probs <- lambda(theta = opt(Team)$par, time = HPPResult)/m
+    ZeroOne <- c()
+    for(i in 1:length(HPPResult)){
+        p = Probs[i]
+        indicator = sample(c(0,1),size=1,prob=c((1-p),p))
+        ZeroOne <- c(ZeroOne,c(indicator))
+    }
+    return(HPPResult[ZeroOne == 1])
+}
+
+```
+
+```{r}
+plot_sim_all <- function(s){
+    set.seed(s)
+    plot(NULL, xlim =c(0,38), ylim = c(0,4), yaxt='n', xlab='Match', ylab = 'Teams')
+    for (i in 1:20){
+        Team = Tm[i]
+        W <- simulate_opt(Team)
+        y_val = 4 - (i * 0.2)
+        par(bg = "#c0c0c0")
+        points(x = W, y = rep(y_val, length(W)), pch = 16, type = 'o', col=primcolours[i])
+    }
+}
+
+plot_sim_all(2) ## Figure 3
+```
+
+And also generate a final League Table:
+
+```{r}
+ConvertGS <- function(v){
+final <- c()
+for(i in 1:38){
+a <- length(v[v<=i & v>i-1])
+final <- c(final, c(a))
+}
+return(final)}
+
+ConvertSimGS <- function(t){
+return(ConvertGS(simulate_opt(t)))
+}
+
+GenTable <- function(sd){
+set.seed(sd)
+v <- c()
+for(i in 1:20){
+v <- c(v,c(ConvertSimGS(Tm[i])))
+}
+points <- c(rep(0,20))
+Wins <- c(rep(0,20))
+Draws <- c(rep(0,20))
+Losses <- c(rep(0,20))
+GoalsFor <- c(rep(0,20))
+GoalsAgainst <- c(rep(0,20))
+df <- data.frame(
+Team = FixturesByTeam$Team,
+MatchID = FixturesByTeam$MatchID)
+df['SimGoals'] = v
+for(idx in 66342:66721){
+dfidx <- df[df$MatchID == idx,]
+g = dfidx$SimGoals
+t = dfidx$Team
+a_tm <- which(Tm==t[1])
+b_tm <- which(Tm==t[2])
+if(g[1]>g[2]){
+points[a_tm] <- points[a_tm] + 3
+Wins[a_tm] <- Wins[a_tm] + 1
+Losses[b_tm] <- Losses[b_tm] + 1
+}
+if(g[2]>g[1]){
+points[b_tm] <- points[b_tm] + 3
+Wins[b_tm] <- Wins[b_tm] + 1
+Losses[a_tm] <- Losses[a_tm] + 1
+}
+if(g[1]==g[2]){
+points[a_tm] <- points[a_tm] + 1
+points[b_tm] <- points[b_tm] + 1
+Draws[a_tm] <- Draws[a_tm] + 1
+Draws[b_tm] <- Draws[b_tm] + 1
+}
+GoalsFor[a_tm] <- GoalsFor[a_tm] + g[1]
+GoalsFor[b_tm] <- GoalsFor[b_tm] + g[2]
+GoalsAgainst[a_tm] <- GoalsAgainst[a_tm] + g[2]
+GoalsAgainst[b_tm] <- GoalsAgainst[b_tm] + g[1]
+}
+GoalsDiff = GoalsFor - GoalsAgainst
+df2 <- data.frame(Team = Tm, Points = points, W = Wins, D = Draws, L = Losses, GF = GoalsFor, GA = GoalsAgainst, GD = GoalsDiff)
+df2 <- df2[order(df2$Points, decreasing=TRUE),]
+return(df2)
+}
+
+try(GenTable(2))
+```
+
+At last, we can run the simulations 100 times, as follows:
+```{r}
+SamplekthPl <- function(k,size){
+    kthPl <- c()
+    i <- 1
+    while(length(kthPl)<size){
+        set.seed(i)
+        try(kthPl <- c(kthPl, c(GenTable(i)$Team[k])))
+        i <- i+1}
+    return(table(kthPl))
+  
+}
+
+SamplekthPl(1,100) ## error messages are normal; may differ from result in the poster.
+
+```
+
